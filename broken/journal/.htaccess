@@ -1,0 +1,8 @@
+AuthUserFile /afs/umich.edu/user/h/n/hnarayan/Public/html/.htpasswd
+AuthGroupFile /dev/null
+AuthName "You're attempting to access someone's private thoughts."
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
