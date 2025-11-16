@@ -1,6 +1,8 @@
-.com.apple.timemachine.supported
-.DS_Store
-.localized
 *~
+.DS_Store
+.com.apple.timemachine.supported
+.exclude
 .git
 .gitignore
+.localized
+Makefile
